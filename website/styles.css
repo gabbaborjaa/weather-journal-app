@@ -1,0 +1,156 @@
+body {
+    background: rgb(136, 203, 171);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    display: grid;
+    /* grid-auto-rows: minmax(auto, 50px); */
+    /* grid-template-columns:  */
+    flex-direction: column;
+    background: white;
+    /* color: #f0d43a; */
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 20px 30px 20px;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.holder {
+    /* padding: 5px; */
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.feel {
+    margin-top: 0;
+}
+
+.entry {
+    /* background: rgba(59, 74, 107, .4); */
+}
+
+.weather {
+    margin-bottom: 10px;
+    text-align: center;
+}
+#entryHolder {
+    color: lightblue;
+    height: 100px;
+}
+
+#date-container {
+    /* display: inline-block; */
+}
+
+.weather-entry-label {
+    display: inline;
+    float: left;
+    margin: 8px 10px 0 0;
+    color: #000;
+    font-size: 16px;
+}
+.headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+#date, #temp, #content {
+    background-color: #eee;
+    height: 14px;
+    font-size: 16px;
+    padding: 10px;
+    color: #000;
+    margin: 5px 0 5px 70px;
+}
+
+.title {
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input {
+    display: block;
+    height: 30px;
+    width: 320px;
+    /* background: #eee; */
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid #ccc;
+    padding: 4px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin: 20px 38%;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 2px 4px #444;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+textarea {
+    /* background: #eee; */
+    color: #000;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    height: 50px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    resize: none;
+}
+
+/* Reset style for HTML element on active to have no border*/
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+/* Style for Placeholder Text*/
+
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    /* color: #f0d43a; */
+    color: #ccc;
+    font-family: 'Oswald', sans-serif;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    /* color: #f0d43a; */
+    font-family: 'Oswald', sans-serif;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    /* color: #f0d43a; */
+    font-family: 'Oswald', sans-serif;
+}

@@ -1,0 +1,25 @@
+{
+    "name": "weather-journal-app",
+    "version": "1.0.0",
+    "description": "Node.js application that asynchronously fetches and displays weather info from OpenWeatherMap.org using Zip code as input.",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gabbaborjaa/weather-journal-app.git"
+    },
+    "author": "Gabriel Borja",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gabbaborjaa/weather-journal-app/issues"
+    },
+    "homepage": "https://github.com/gabbaborjaa/weather-journal-app#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    }
+}
