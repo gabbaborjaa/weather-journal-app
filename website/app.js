@@ -1,6 +1,6 @@
 const OWM_API_KEY = '987be9bc4a77c573dae6fed13fd1dde7';
 const OWM_API_UNIT = 'metric';
-const OWM_API_TEMP_UNIT_MEASURE = '&degC';
+const OWM_API_TEMP_UNIT_MEASURE = '&degF';
 const OWM_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 // URL of the server to post data
